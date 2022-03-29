@@ -37,6 +37,8 @@ public class amazon {
 		a.moveToElement(md);
 		a.contextClick();
 		
+		Thread.sleep(5000);
+		
 	for(int i=0; i<3; i++) {
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
